@@ -19,7 +19,7 @@ import java.util.Optional;
 
 @Service
 public class CompanyServiceImpl implements CompanyService {
-    private final static String XML_IMPORT_PATH = "D:\\IdeaProjects\\SpringData\\examPreparation\\Job Finder_Skeleton\\skeleton\\src\\main\\resources\\files\\xml\\companies.xml";
+    private final static String XML_IMPORT_PATH = "/src/main/resources/files/xml/companies.xml";
     private final CompanyRepository companyRepository;
     private final CountryService countryService;
     private final ModelMapper modelMapper;
