@@ -18,7 +18,7 @@ import java.util.Optional;
 @Service
 public class CountryServiceImpl implements CountryService {
 
-    private final static String JSON_IMPORT_PATH = "D:\\IdeaProjects\\SpringData\\examPreparation\\Job Finder_Skeleton\\skeleton\\src\\main\\resources\\files\\json\\countries.json";
+    private final static String JSON_IMPORT_PATH = "/src/main/resources/files/json/countries.json";
     private final CountryRepository countryRepository;
     private final ModelMapper modelMapper;
     private final ValidationUtil validationUtil;

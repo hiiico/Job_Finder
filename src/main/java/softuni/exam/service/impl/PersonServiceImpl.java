@@ -20,7 +20,7 @@ import java.nio.file.Path;
 @Service
 public class PersonServiceImpl implements PersonService {
 
-    private final static String JSON_IMPORT_PATH = "D:\\IdeaProjects\\SpringData\\examPreparation\\Job Finder_Skeleton\\skeleton\\src\\main\\resources\\files\\json\\people.json";
+    private final static String JSON_IMPORT_PATH = "/src/main/resources/files/json/people.json";
 
     private final PersonRepository personRepository;
     private final CountryService countryService;

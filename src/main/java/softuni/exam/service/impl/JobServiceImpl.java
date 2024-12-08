@@ -21,7 +21,7 @@ import java.nio.file.Path;
 @Service
 public class JobServiceImpl implements JobService {
 
-    private final static String XML_IMPORT_PATH = "D:\\IdeaProjects\\SpringData\\examPreparation\\Job Finder_Skeleton\\skeleton\\src\\main\\resources\\files\\xml\\jobs.xml";
+    private final static String XML_IMPORT_PATH = "/src/main/resources/files/xml/jobs.xml";
     private final JobRepository jobRepository;
     private final CompanyService companyService;
     private final ModelMapper modelMapper;
